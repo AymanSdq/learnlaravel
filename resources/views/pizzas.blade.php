@@ -6,6 +6,7 @@
                 <div class="title m-b-md">
                     Pizza List
                 </div>
+                {{$name}} : {{$phone}}
                 @foreach($pizza as $pzs)
                     <div>
                         {{$loop->index}} Type {{$pzs['type']}} base {{$pzs['base']}}
